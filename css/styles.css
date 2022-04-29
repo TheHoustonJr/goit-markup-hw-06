@@ -360,12 +360,36 @@ textarea {
   text-decoration: underline;
 }
 
-.form-field input:hover {
+.form-input:hover {
+  border: 1px solid var(--blue-clr);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:focus  {
   border: 1px solid var(--blue-clr);
 }
 
-.form-field .svg-name:hover {
+.form-input:hover + .svg-name {
   fill: var(--blue-clr);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.input-btn {
+  background: var(--blue-clr);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.input-btn:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Абзацы */
@@ -571,7 +595,6 @@ img {
 .people-svg:focus {
   background-color: var(--blue-clr);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .people-svg:hover .people-team-svg,
