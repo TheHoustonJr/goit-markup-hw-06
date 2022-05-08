@@ -393,13 +393,12 @@ textarea {
 }
 
 input[type="checkbox"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   position: absolute;
 }
 
 .icon {
+  position: relative;
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -417,7 +416,12 @@ input[type="checkbox"]:checked + .icon {
   border-color: var(--blue-clr);
   background-color: var(--blue-clr);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-image: url(../images/svg/ok.svg#icon-svg-ok);
+}
+
+.svg-name-icon {
+  position: absolute;
+  top: -0.5px;
+  left: 0px;
 }
 
 .label-checkbox {
