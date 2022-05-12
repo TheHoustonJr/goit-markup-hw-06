@@ -355,7 +355,7 @@ textarea {
 
 .svg-name {
   position: absolute;
-  top: 34px;
+  top: 31px;
   left: 15px;
   display: inline-block;
 }
@@ -992,6 +992,6 @@ top: 2751px; */
   margin-left: 10px;
 }
 
-input[type="email-footer"] {
+.email-footer {
   padding: 16px;
 }
