@@ -349,13 +349,17 @@ textarea {
   height: 120px;
 }
 
+.form-label {
+  margin-bottom: 4px;
+}
+
 .comment {
   margin-bottom: 20px;
 }
 
 .svg-name {
   position: absolute;
-  top: 31px;
+  top: 34px;
   left: 15px;
   display: inline-block;
 }
